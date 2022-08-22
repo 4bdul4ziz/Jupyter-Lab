@@ -1,17 +1,21 @@
 from collections import deque
+
+
 class Graph:
     def __init__(self, adjac_lis):
         self.adjac_lis = adjac_lis
+
     def get_neighbors(self, v):
         return self.adjac_lis[v]
+
     # heuristic bs
     def h(self, n):
         H = {
-            'A': 5,
-            'B': 4,
-            'C': 1,
-            'H': 1,
-            'G': 0,
+            "A": 5,
+            "B": 4,
+            "C": 1,
+            "H": 1,
+            "G": 0,
         }
 
         return H[n]
@@ -32,7 +36,7 @@ class Graph:
                     n = v
 
             if n == None:
-                print('Path does not exist!')
+                print("Path does not exist!")
                 return None
             if n == stop:
                 reconst_path = []
@@ -45,7 +49,7 @@ class Graph:
 
                 reconst_path.reverse()
 
-                print('Path found: {}'.format(reconst_path))
+                print("Path found: {}".format(reconst_path))
                 return reconst_path
             for (m, weight) in self.get_neighbors(n):
 
@@ -64,16 +68,16 @@ class Graph:
             open_lst.remove(n)
             closed_lst.add(n)
 
-        print('Path does not exist!')
+        print("Path does not exist!")
         return None
 
 
 adjac_lis = {
-    'A': [('B', 1), ('C', 3)],
-    'B': [('C', 1), ('G', 9), ('A', 1)],
-    'C': [('A', 3), ('B', 1), ('G', 5), ('H', 2)],
-    'H': [('C', 2), ('G', 1)],
-    'G': [('B', 9), ('C', 5), ('H', 1)],
+    "A": [("B", 1), ("C", 3)],
+    "B": [("C", 1), ("G", 9), ("A", 1)],
+    "C": [("A", 3), ("B", 1), ("G", 5), ("H", 2)],
+    "H": [("C", 2), ("G", 1)],
+    "G": [("B", 9), ("C", 5), ("H", 1)],
 }
 graph1 = Graph(adjac_lis)
-graph1.a_star_algorithm('G', 'A')
+graph1.a_star_algorithm("G", "A")
