@@ -28,10 +28,8 @@ def plot_graph(graph):
     pos = graphviz_layout(G, prog="dot")
     fig = plt.gcf()
     fig.set_size_inches(160.5, 10.5)
-    colors = ['green' if state_evaluations[node]
-              == -1 else 'red' for node in G]
-    nx.draw(G, pos, labels=labels, node_color=colors,
-            font_size=16, node_size=300)
+    colors = ["green" if state_evaluations[node] == -1 else "red" for node in G]
+    nx.draw(G, pos, labels=labels, node_color=colors, font_size=16, node_size=300)
     plt.show()
 
 
@@ -68,8 +66,7 @@ def move(state, tokens, graph):
 def is_valid(state):
     if "#" in state:
         return False
-    res = [state[i: j] for i in range(len(state))
-           for j in range(i + 1, len(state) + 1)]
+    res = [state[i:j] for i in range(len(state)) for j in range(i + 1, len(state) + 1)]
     filtered = []
     for r in res:
         if len(r) > 2 and r[0] == r[-1]:
@@ -78,5 +75,5 @@ def is_valid(state):
     return len(filtered) == len(set(filtered))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
