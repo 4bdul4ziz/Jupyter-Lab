@@ -1,11 +1,11 @@
-'''
+"""
 Write a program to implement a k-means clustering algorithm by reading the coordinates of 12 input samples.
 Read k value at runtime, k < n-1, where n is the number of input samples.
 Print the members in the final ‘k’ clusters and the number of iterations is required to form the final ‘k’ clusters.
 Also, print the members in each cluster in every iteration.
 Use either Manhattan or Euclidean distance formula for cluster forming.
 
-'''
+"""
 import numpy as np
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -16,6 +16,7 @@ def manhattan_distance(x, y, k):
     for i in range(k):
         dist += abs(x[i] - y[i])
     return dist
+
 
 def k_means_clustering(data, k):
     # Initialize k clusters
@@ -55,9 +56,9 @@ def plotClusters(data, k, figsize=(6, 6), dpi=200, title="K-Means Clustering"):
     plt.title(title)
     plt.xlabel("X")
     plt.ylabel("Y")
-    plt.scatter(data[:][0], data[:][1], c='b', marker='o')
-    plt.scatter(clusters[:, 0], clusters[: 1], c='r', marker='x')
-    plt.show()   
+    plt.scatter(data[:][0], data[:][1], c="b", marker="o")
+    plt.scatter(clusters[:, 0], clusters[:1], c="r", marker="x")
+    plt.show()
 
 
 def visuallise_clustering(data, k):
@@ -65,10 +66,15 @@ def visuallise_clustering(data, k):
     print("Clusters:")
     for i in range(k):
         print("Cluster", i, ":", clusters[i])
-def main ():
-    data = np.array([[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]])
+
+
+def main():
+    data = np.array(
+        [[1, 1], [1, 2], [1, 3], [2, 1], [2, 2], [2, 3], [3, 1], [3, 2], [3, 3]]
+    )
     k = int(input("Enter k:"))
     visuallise_clustering(data, k)
     plotClusters(data, k)
+
 
 main()
