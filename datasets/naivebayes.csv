@@ -1,0 +1,15 @@
+Day,Outlook,Temperature,Humidity,Wind,Class: Play ball
+D1,Sunny ,Hot,High ,FALSE,No 
+D2,Sunny ,Hot,High ,TRUE,No 
+D3,Overcast ,Hot,High ,FALSE,Yes 
+D4,Rain ,Mild,High ,FALSE,Yes 
+D5,Rain ,Cool,Normal ,FALSE,Yes 
+D6,Rain ,Cool,Normal ,TRUE,No 
+D7,Overcast ,Cool,Normal ,TRUE,Yes 
+D8,Sunny ,Mild,High ,FALSE,No 
+D9,Sunny ,Cool,Normal ,FALSE,Yes 
+D10,Rain ,Mild,Normal ,FALSE,Yes 
+D11,Sunny ,Mild,Normal ,TRUE,Yes 
+D12,Overcast ,Mild,High ,TRUE,Yes 
+D13,Overcast ,Hot,Normal ,FALSE,Yes 
+D14,Rain ,Mild,High ,TRUE,No
