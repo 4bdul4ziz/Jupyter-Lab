@@ -1,0 +1,8 @@
+1. Analyze how these algorithms vary in their working -
+Regression
+Support Vector Machine
+Decision Tree
+Random Forest
+
+Regressions
+Regressions are

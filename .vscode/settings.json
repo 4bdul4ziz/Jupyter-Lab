@@ -71,5 +71,10 @@
         "*.rmd": "markdown",
         "iostream": "cpp"
     },
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "editor.formatOnType": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
 }
