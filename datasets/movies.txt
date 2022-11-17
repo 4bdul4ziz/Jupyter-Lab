@@ -1,0 +1,74 @@
+Movie name, Director name, Released Year, Movie type
+The Last of the Mohicans, Michael Mann, 1992, Action
+Life of Pi, Ang Lee, 2012, Adventure
+The Lord of the Rings: The Fellowship of the Ring, Peter Jackson, 2001, Adventure
+The Lord of the Rings: The Two Towers, Peter Jackson, 2002, Adventure
+The Lord of the Rings: The Return of the King, Peter Jackson, 2003, Adventure
+The Hobbit: An Unexpected Journey, Peter Jackson, 2012, Adventure
+The Hobbit: The Desolation of Smaug, Peter Jackson, 2013, Adventure
+The Hobbit: The Battle of the Five Armies, Peter Jackson, 2014, Adventure
+The Hunger Games, Gary Ross, 2012, Adventure
+The Hunger Games: Catching Fire, Francis Lawrence, 2013, Adventure
+The Hunger Games: Mockingjay - Part 1, Francis Lawrence, 2014, Adventure
+Interstellar, Christopher Nolan, 2014, Adventure
+The Martian, Ridley Scott, 2015, Adventure
+The Revenant, Alejandro G. Iñárritu, 2015, Adventure
+The Dark Knight, Christopher Nolan, 2008, Action
+The Dark Knight Rises, Christopher Nolan, 2012, Action
+The Avengers, Joss Whedon, 2012, Action
+The Avengers: Age of Ultron, Joss Whedon, 2015, Action
+The Avengers: Infinity War, Anthony Russo, 2018, Action
+The Avengers: Endgame, Anthony Russo, 2019, Action
+The Matrix, Lana Wachowski, 1999, Action
+The Matrix Reloaded, Lana Wachowski, 2003, Action
+The Matrix Revolutions, Lana Wachowski, 2003, Action
+The Terminator, James Cameron, 1984, Action
+The Terminator 2: Judgment Day, James Cameron, 1991, Action
+The Terminator 3: Rise of the Machines, Jonathan Mostow, 2003, Action
+The Terminator: Dark Fate, Tim Miller, 2019, Action
+The Bourne Identity, Doug Liman, 2002, Action
+The Bourne Supremacy, Paul Greengrass, 2004, Action
+The Bourne Ultimatum, Paul Greengrass, 2007, Action
+The Bourne Legacy, Tony Gilroy, 2012, Action
+The Nun, Corin Hardy, 2018, Horror
+The Conjuring, James Wan, 2013, Horror
+The Conjuring 2, James Wan, 2016, Horror
+The Conjuring 3, Michael Chaves, 2019, Horror
+The Exorcist, William Friedkin, 1973, Horror
+The Exorcist III, William Peter Blatty, 1990, Horror
+The Exorcist: The Version You've Never Seen, William Friedkin, 2000, Horror
+The Exorcist: The Beginning, Renny Harlin, 2004, Horror
+The Exorcist: The Next Chapter, John Boorman, 2005, Horror
+The Exorcist: Legion, David F. Sandberg, 2010, Horror
+The Exorcist: The Heretic, William Brent Bell, 2016, Horror
+The Exorcist: The Fallen, William Brent Bell, 2017, Horror
+Johnny English, Peter Howitt, 2003, Comedy
+Johnny English Reborn, Oliver Parker, 2011, Comedy
+Johnny English Strikes Again, David Kerr, 2018, Comedy
+The Hangover, Todd Phillips, 2009, Comedy
+The Hangover Part II, Todd Phillips, 2011, Comedy
+Adventureland, Greg Mottola, 2009, Comedy
+American Pie, Paul Weitz, 1999, Comedy
+American Pie 2, J.B. Rogers, 2001, Comedy
+Minion Movie, Kyle Balda, 2015, Comedy
+Minions, Pierre Coffin, 2015, Comedy
+Minions: The Rise of Gru, Kyle Balda, 2020, Comedy
+The Lego Movie, Phil Lord, 2014, Comedy
+The Lego Batman Movie, Chris McKay, 2017, Comedy
+The Lego Ninjago Movie, Charlie Bean, 2017, Comedy
+The Lego Movie 2: The Second Part, Mike Mitchell, 2019, Comedy
+Superman, Richard Donner, 1978, Action
+Superman II, Richard Lester, 1980, Action
+Superman III, Richard Lester, 1983, Action
+Superman IV: The Quest for Peace, Sidney J. Furie, 1987, Action
+Batman Begins, Christopher Nolan, 2005, Action
+Batman v Superman: Dawn of Justice, Zack Snyder, 2016, Action
+Batman: The Dark Knight Returns, Part 1, Jay Oliva, 2012, Action
+Batman: The Dark Knight Returns, Part 2, Jay Oliva, 2013, Action
+Batman: The Killing Joke, Sam Liu, 2016, Action
+Batman: Gotham by Gaslight, Sam Liu, 2018, Action
+Batman: Hush, Justin Copeland, 2019, Action
+Batman: Mask of the Phantasm, Eric Radomski, 1993, Action
+Batman: Mystery of the Batwoman, Curt Geda, 2003, Action
+Batman: Under the Red Hood, Brandon Vietti, 2010, Action
+Batman: Year One, Lauren Montgomery, 2011, Action
